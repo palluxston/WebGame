@@ -1,0 +1,24 @@
+{
+  "name": "webgame",
+  "version": "1.0.0",
+  "description": "Simple game console",
+  "main": "index.js",
+  "scripts": {
+    "build:css": "npx tailwindcss -i ./src/css/tailwind.css -o ./public/styles.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/palluxston/WebGame.git"
+  },
+  "private": true,
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/palluxston/WebGame/issues"
+  },
+  "homepage": "https://github.com/palluxston/WebGame#readme",
+  "dependencies": {
+    "tailwindcss": "^3.4.17"
+  }
+}
